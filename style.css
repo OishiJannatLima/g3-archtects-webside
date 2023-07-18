@@ -1,0 +1,336 @@
+
+/* header section start */
+.container{
+    background-color: antiquewhite;
+}
+.main-text{
+    display: flex;
+    margin-left: 120px;
+}
+.text-title{
+    font-size: 25px;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    margin-left: 300px;
+    font-size: 13px;
+}
+li{
+    margin-top: 10px;
+}
+.banner{
+    text-align: center;
+}
+.text-banner{
+    font-size: 35px;
+}
+.text-banner-2{
+    font-size: 35px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+.text-duration{
+    font-size: 13px;
+    margin-left: 210px;
+    margin-right: 300px;
+    color: gray;
+
+}
+.btn-primary{
+    padding: 10px;
+    background-color: #ff900e;
+    border: 1px solid #ff900e;
+    border-radius: 5px;
+    color: white;
+    font-size: 11px;
+}
+.banner-image{
+    text-align: center;
+    padding: 25px;
+}
+.banner-image img{
+    width: 750px;
+}
+/* header section end */
+
+/* ----------------------
+banner section start 
+------------------------- */
+.image-section img{
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+}
+.image-section{
+    margin-top: 40px;
+}
+.main-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 100px;
+}
+.section{
+    margin-top: 95px;
+}
+.text{
+    padding: 40px;
+    font-size: 25px;
+    color: gray;
+}
+.text-2{
+    color: black;
+    font-size: 25px;
+}
+.text-3{
+    color: #f88604;
+}
+.title-duration{
+    font-size: 12px;
+    color: gray;
+    margin-right: 60px;
+}
+/* banner section end */
+
+/* -----------------------
+features section start
+--------------------------- */
+.features{
+    margin-top: 50px;
+    display: flex;
+    gap: 90px;
+}
+.features .content{
+    border-left: 5px solid #ff900e;
+    padding: 10px;
+    margin-left: 50px;
+
+}
+.text-content{
+    margin-left: 60px;
+    font-size: 15px;
+    color: gray;
+}
+ .card{
+    margin-left: 70px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 2px 3px 4px 6px whitesmoke;
+}
+.desktop{
+    font-size: 13px;
+    margin-top: 5px;
+}
+.desktop-text{
+    font-size: 12px;
+    color: gray;
+}
+.feature-img img{
+    width: 400px;
+    margin-right: 70px;
+}
+.year-badge{
+    width: 170px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f88604;
+    color: #FFF;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+
+}
+.year-badge h2{
+    font-size: 2rem;
+    margin: 0;
+}
+.year-badge p{
+    font-size: 1rem;
+}
+/* feature section end */
+
+/* -------------------
+facts section start 
+---------------------- */
+.fact{
+    margin-left: 70px;
+    margin-top: 80px;
+}
+.fact h1{
+    font-size: 25px;
+}
+.fact-text{
+    font-size: 13px;
+    color: gray;
+}
+.main-fact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.icon-facts{
+    border: 1px solid #f88604;
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+.icon-facts img{
+    width: 30px;
+}
+.icon-facts h1{
+    text-align: center;
+    margin-top: 5px;
+}
+.icon-facts p{
+    text-align: center;
+    color: gray;
+    font-size: 13px;
+}
+.icon-facts:hover{
+    background-color: aqua;
+}
+/* facts section end */
+
+/* ------------------------ 
+sponsor section start
+-------------------------- */
+.sponsor{
+    text-align: center;
+    padding: 70px;
+}
+.sponsor h1{
+    font-size: 25px;
+}
+.sponsor p{
+    font-size: 13px;
+    color: gray;
+}
+.sponsor-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+}
+.sponsor-image img{
+    width: 100px;
+}
+.last-p{
+    text-align: center;
+    color: gray;
+    background-color: antiquewhite;
+    margin: 120px 120px 120px;
+    padding: 20px;
+    font-size: 13px;
+    margin-top: 80px;
+}
+/* sponsor section end */
+
+/* ---------------
+ Media Queries
+  ---------------- */
+
+  /* Mobile Devices */
+
+  @media screen and (max-width:688px) {
+    .container{
+        padding: 20px;
+    }
+    .nav-list{
+        flex-direction: column;
+        text-align: center;
+        margin-left: 0;
+        padding: 0;
+        gap: 10px;
+        margin-top: 50px;
+    }
+    .text-duration{
+        text-align: center;
+        margin-right: 30px;
+        margin-left: 50px;
+    }
+    .banner-image img{
+        width: 100%;
+    }
+    /* banner section */
+    .image-section img{
+        width: 100%;
+        padding: 5px;
+        text-align: center;
+    }
+    .main-section{
+        display: block;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .section{
+        margin-top: 30px;
+    }
+    .text{
+        padding: 20px;
+        font-size: 20px;
+    }
+    .title-duration{
+        font-size: 11px;
+        margin-right: 20px;
+    }
+    /* features section */
+    .features{
+        display: block;
+        margin-top: 30px;
+    }
+    .features .content{
+        margin-left: 20px;
+    }
+    .text-content{
+        margin-left: 20px;
+    }
+    .card{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .feature-img img{
+        width: 100%;
+        margin-right: 0;
+    }
+    .year-badge{
+        bottom: 20px;
+    }
+    /* facts section */
+    .fact{
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .main-fact{
+        flex-wrap: wrap;
+    }
+    .icon-facts{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    /* sponsor section */
+    .sponsor{
+        padding: 20px;
+    }
+    .sponsor-image img{
+        width: 70px;
+        
+    }
+    .sponsor-image{
+        flex-direction: column;
+    }
+    .last-p{
+        margin: 20px;
+        font-size: 12px;
+        margin-top: 30px;
+    }
+    
+  }
+  
